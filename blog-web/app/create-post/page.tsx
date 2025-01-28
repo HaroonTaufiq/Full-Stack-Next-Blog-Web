@@ -1,10 +1,12 @@
 import React from 'react'
+import { createPost } from '../actions/action'
 
 export default function page() {
   return (
     <main className='text-center pt-16'>
         <h1 className='text-4xl md:text-5xl font-bold mb-5'>Create Post</h1>
-        <form className='h-10 space-x-2 mt-10'>
+        <form action={createPost}
+        className='h-10 space-x-2 mt-10'>
             <input 
             type='text'
             required
