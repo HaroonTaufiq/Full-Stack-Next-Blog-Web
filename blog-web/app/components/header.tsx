@@ -16,7 +16,7 @@ const navLinks = [
     },
     {
         label: "Create post",
-        path: 'create-post'
+        path: '/create-post'
     }
 ]
 
